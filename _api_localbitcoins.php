@@ -110,7 +110,7 @@ class LocalBitcoins_Advertisements_API extends LocalBitcoins {
 		if (strpos($ad_id,',')!==false)
 			$res = $this->Query('/api/ad-get/','',array('ads'=>$ad_id));
 		else
-			$res = $this->Query('/api/ad-get/{ad_id}/','',array('{ad_id}'),array($ad_id));
+			$res = $this->Query('/api/ad-get/{ad_id}/','','',array('{ad_id}'),array($ad_id));
 		return $res;
 	}
 
