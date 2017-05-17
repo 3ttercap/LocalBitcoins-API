@@ -6,19 +6,19 @@
 	
 	$Lbc_Account = new LocalBitcoins_Account_API($API_AUTH_KEY,$API_AUTH_SECRET);
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/account_info/{username}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#account_info
 /* Permissions: 	Read
 **/
 	/*
-		$username 	= 'bebot';
+		$username 	= 'BeBot';
 		$res		= $Lbc_Account->Info($username);
 		print_r($res);
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK (pagination not tested)
 /* Base: 			"/api/dashboard/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#dashboard
 /* Permissions: 	Read
@@ -30,7 +30,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK (pagination not tested)
 /* Base: 			"/api/dashboard/released/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#dashboard-released
 /* Permissions: 	Read
@@ -42,7 +42,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK (pagination not tested)
 /* Base: 			"/api/dashboard/canceled/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#dashboard-canceled
 /* Permissions: 	Read
@@ -54,7 +54,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK (pagination not tested)
 /* Base: 			"/api/dashboard/closed/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#dashboard-closed
 /* Permissions: 	Read
@@ -66,7 +66,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/logout/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#logout
 /* Permissions: 	Read
@@ -77,7 +77,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/myself/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#myself
 /* Permissions: 	Read,Write
@@ -88,7 +88,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK (pagination not tested)
 /* Base: 			"/api/notifications/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#notifications
 /* Permissions: 	Read
@@ -100,7 +100,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/notifications/mark_as_read/{notification_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#notifications-read
 /* Permissions: 	Read,Write
@@ -112,7 +112,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/pincode/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#pin
 /* Permissions: 	Read
@@ -124,7 +124,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/real_name_verifiers/{username}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#real-name-verifiers
 /* Permissions: 	Read
@@ -136,7 +136,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/recent_messages/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#recent-messages
 /* Permissions: 	Read

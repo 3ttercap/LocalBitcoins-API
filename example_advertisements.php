@@ -7,7 +7,7 @@
 	$Lbc_Advertisements = new LocalBitcoins_Advertisements_API($API_AUTH_KEY,$API_AUTH_SECRET);
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/ads/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#ads
 /* Permissions: 	Read
@@ -31,7 +31,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/ad-get/" and "/api/ad-get/{ad_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#ad-get and https://localbitcoins.com/api-docs/#ad-get-id
 /* Permissions: 	Read
@@ -51,7 +51,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/ad/{ad_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#ad-id
 /* Permissions: 	Read,Write
@@ -83,7 +83,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/ad-create/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#ad-create
 /* Permissions: 	Read,Write
@@ -115,7 +115,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/ad-delete/{ad_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#ad-delete
 /* Permissions: 	Read,Write
@@ -128,7 +128,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/payment_methods/" and "/api/payment_methods/{countrycode}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#payment-methods
 /* Permissions: 	None
@@ -146,7 +146,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/countrycodes/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#countrycodes
 /* Permissions: 	None
@@ -157,7 +157,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/currencies/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#currencies
 /* Permissions: 	None
@@ -168,7 +168,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/places/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#places
 /* Permissions: 	None

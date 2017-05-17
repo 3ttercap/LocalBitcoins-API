@@ -7,7 +7,7 @@
 	$Lbc_Trades = new LocalBitcoins_Trades_API($API_AUTH_KEY,$API_AUTH_SECRET);
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/feedback/{username}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#feedback
 /* Permissions: 	Read,Write
@@ -22,25 +22,25 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/contact_release/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-release
 /* Permissions: 	Money
 **/
 	/*
-		$contact_id = '';
+		$contact_id = '12345678';
 
 		$res = $Lbc_Trades->ContactRelease($contact_id);
 		print_r($res);
 	*/
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/contact_release_pin/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-release-pin
 /* Permissions: 	Money_pin
 **/
 	/*
-		$contact_id = '';
+		$contact_id = '12345678';
 		$pincode	= '1234';
 		
 		$res = $Lbc_Trades->ContactReleasePin($contact_id,pincode);
@@ -48,40 +48,40 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/contact_mark_as_paid/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-paid
 /* Permissions: 	Read,Write
 **/
 	/*
-		$contact_id = '';
+		$contact_id = '12345678';
 		
 		$res = $Lbc_Trades->ContactMarkAsPaid($contact_id);
 		print_r($res);
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/contact_messages/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-message
 /* Permissions: 	Read
 **/
 	/*
-		$contact_id = '';
+		$contact_id = '12345678';
 		
 		$res = $Lbc_Trades->ContactMessages($contact_id);
 		print_r($res);
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/contact_message_post/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-post
 /* Permissions: 	Read,Write
 **/
 	/*
-		$contact_id = '';
-		$msg		= '';
+		$contact_id = '12345678';
+		$msg		= 'Many Thanks!!! You Rock!';
 
 		$res = $Lbc_Trades->ContactMessagePost($contact_id,$msg);
 		print_r($res);
@@ -98,7 +98,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/contact_dispute/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-dispute
 /* Permissions: 	Read,Write
@@ -119,7 +119,7 @@
 		print_r($res);
 	*/
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/contact_cancel/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-cancel
 /* Permissions: 	Read,Write
@@ -132,7 +132,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/contact_fund/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-fund
 /* Permissions: 	Read,Write
@@ -145,13 +145,13 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/contact_mark_realname/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-mark-realname
 /* Permissions: 	Read,Write
 **/
 	/*
-		$contact_id				= '';
+		$contact_id				= '12345678';
 		$confirmation_status	= 1; 	// 1 = Name matches, 2 = Name was different, 3 = Name was not checked, 4 = Name was not visible
 		$id_confirmed			= 1; 	// 0 for false, 1 for true.
 		
@@ -160,20 +160,20 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/contact_mark_identified/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-mark-identified
 /* Permissions: 	Read,Write
 **/
 	/*
-		$contact_id	= '';
+		$contact_id	= '12345678';
 
 		$res = $Lbc_Trades->ContactMarkIdentified($contact_id);
 		print_r($res);
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/contact_create/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-create
 /* Permissions: 	Read
@@ -196,13 +196,13 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/contact_info/" and "/api/contact_info/{contact_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#contact-info and https://localbitcoins.com/api-docs/#contact-info-id
 /* Permissions: 	Read
 **/
 	/*
-		$contact_id	= '123456';
+		$contact_id	= '12345678';
 
 		$res = $Lbc_Trades->ContactInfo($contact_id);
 		print_r($res);
@@ -210,7 +210,7 @@
 	
 	/*
 		// up to 50 at a time
-		$contacts	= '123456,789123,456789';
+		$contacts	= '12345678,11111111,88888888';
 
 		$res = $Lbc_Trades->ContactInfo($contacts);
 		print_r($res);

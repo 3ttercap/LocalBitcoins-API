@@ -2,7 +2,7 @@
 
 	$Lbc_Public = new LocalBitcoins_Public_API();
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/buy-bitcoins-with-cash/{location_id}/{location_slug}/.json"
 /* Documentation: 	https://localbitcoins.com/api-docs/#local-buy
 /* Permissions: 	None
@@ -17,7 +17,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/sell-bitcoins-for-cash/{location_id}/{location_slug}/.json"
 /* Documentation: 	https://localbitcoins.com/api-docs/#local-sell
 /* Permissions: 	None
@@ -32,7 +32,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/buy-bitcoins-online/.....json"
 /* Documentation: 	https://localbitcoins.com/api-docs/#online-buy1 (1 to 6)
 /* Permissions: 	None
@@ -104,7 +104,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/sell-bitcoins-online/.....json"
 /* Documentation: 	https://localbitcoins.com/api-docs/#online-sell1 (1 to 6)
 /* Permissions: 	None
@@ -176,7 +176,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/bitcoinaverage/ticker-all-currencies/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#ticker-all
 /* Permissions: 	None
@@ -189,7 +189,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/bitcoincharts/{currency}/trades.json"
 /* Documentation: 	https://localbitcoins.com/api-docs/#trades
 /* Permissions: 	None
@@ -209,7 +209,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/bitcoincharts/{currency}/orderbook.json"
 /* Documentation: 	https://localbitcoins.com/api-docs/#orderbook
 /* Permissions: 	None

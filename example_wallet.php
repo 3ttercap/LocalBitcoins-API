@@ -7,7 +7,7 @@
 	$Lbc_Wallet = new LocalBitcoins_Wallet_API($API_AUTH_KEY,$API_AUTH_SECRET);
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/wallet/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#wallet
 /* Permissions: 	Read
@@ -18,7 +18,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/wallet-balance/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#wallet-balance
 /* Permissions: 	Read
@@ -29,7 +29,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/wallet-send/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#wallet-send
 /* Permissions: 	Money
@@ -42,7 +42,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- NOT TESTED
 /* Base: 			"/api/wallet-send-pin/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#wallet-send-pin
 /* Permissions: 	Money_pin
@@ -56,7 +56,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/wallet-addr/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#wallet-addr
 /* Permissions: 	Read

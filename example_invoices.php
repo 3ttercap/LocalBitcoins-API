@@ -7,7 +7,7 @@
 	$Lbc_Merchant = new LocalBitcoins_Merchant_API($API_AUTH_KEY,$API_AUTH_SECRET);
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK (pagination not tested)
 /* Base: 			"/api/merchant/invoices/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#invoices
 /* Permissions: 	Read
@@ -19,7 +19,7 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/merchant/new_invoice/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#new-invoice
 /* Permissions: 	Read
@@ -37,25 +37,25 @@
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/merchant/invoice/{invoice_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#invoice-id
 /* Permissions: 	Read
 **/
 	/*
-		$invoice_id = '9bnfMuWARmeHFmLDoEVusU';
+		$invoice_id = 'zfJ2eVW2HhSWyGNhX34K9';
 		$res = $Lbc_Merchant->Invoice($invoice_id);
 		print_r($res);
 	*/
 
 
-/** ----------------------------------------------------------------
+/** ---------------------------------------------------------------- TEST OK
 /* Base: 			"/api/merchant/delete_invoice/{invoice_id}/"
 /* Documentation: 	https://localbitcoins.com/api-docs/#invoice-delete
 /* Permissions: 	Read,Write
 **/
 	/*
-		$invoice_id = '9bnfMuWARmeHFmLDoEVusU';
+		$invoice_id = 'zfJ2eVW2HhSWyGNhX34K9';
 		$res = $Lbc_Merchant->DeleteInvoice($invoice_id);
 		print_r($res);
 	*/
