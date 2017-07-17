@@ -24,7 +24,7 @@
 /* Permissions: 	Read
 **/
 	/*
-		// for pagination use an array in params eg: $Lbc_Account->Dashboard(array('id__gt='=>'50'));
+		// for pagination use an array in params eg: $Lbc_Account->Dashboard(array('id__gt'=>'50'));
 		$res		= $Lbc_Account->Dashboard();
 		print_r($res);
 	*/
@@ -36,7 +36,7 @@
 /* Permissions: 	Read
 **/
 	/*
-		// for pagination use an array in params eg: lb_DashboardReleased(array('id__gt='=>'50'));
+		// for pagination use an array in params eg: lb_DashboardReleased(array('id__gt'=>'50'));
 		$res		= $Lbc_Account->DashboardReleased();
 		print_r($res);
 	*/
@@ -48,7 +48,7 @@
 /* Permissions: 	Read
 **/
 	/*
-		// for pagination use an array in params eg: lb_DashboardReleased(array('id__gt='=>'50'));
+		// for pagination use an array in params eg: lb_DashboardReleased(array('id__gt'=>'50'));
 		$res		= $Lbc_Account->DashboardCanceled();
 		print_r($res);
 	*/
@@ -60,7 +60,7 @@
 /* Permissions: 	Read
 **/
 	/*
-		// for pagination use an array in params eg: lb_DashboardReleased(array('id__gt='=>'50'));
+		// for pagination use an array in params eg: lb_DashboardReleased(array('id__gt'=>'50'));
 		$res		= $Lbc_Account->DashboardClosed();
 		print_r($res);
 	*/
@@ -94,7 +94,7 @@
 /* Permissions: 	Read
 **/
 	/*
-		// for pagination use an array in params eg: lb_Notifications(array('id__gt='=>'50'));
+		// for pagination use an array in params eg: lb_Notifications(array('id__gt'=>'50'));
 		$res 		= $Lbc_Account->Notifications();
 		print_r($res);
 	*/
